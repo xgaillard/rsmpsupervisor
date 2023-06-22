@@ -6,9 +6,9 @@ package org.signature.rsmpSupervisor.communication.rsmp.json;
  *
  */
 public class ChampTunnelRequest {
-	public String cCI = "M0001";
-	public String n = "tunnel";
-	public String cO = "sendData";
+	public String cCI = "M0000";
+	public String n = "data";
+	public String cO = "sendCommand";
 	public String v = "";
 	
 	public ChampTunnelRequest(String val) {
